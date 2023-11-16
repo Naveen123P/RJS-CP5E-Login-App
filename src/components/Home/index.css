@@ -1,0 +1,18 @@
+/* Write your CSS here HOME */
+.bg-container1 {
+  height: 100vh;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bg-container2 {
+  height: 600px;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background-image: linear-gradient(#2b2c49, #b5b9ff);
+}
