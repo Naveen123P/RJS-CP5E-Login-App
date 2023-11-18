@@ -3,7 +3,7 @@ import './index.css'
 
 const Logout = props => {
   const {loginStatus} = props
-  const text = loginStatus ? 'Login' : Logout
+  const text = loginStatus ? 'Login' : 'Logout'
   return {text}
 }
 
