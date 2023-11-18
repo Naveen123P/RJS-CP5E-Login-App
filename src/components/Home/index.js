@@ -15,18 +15,16 @@ class Home extends Component {
 
   render() {
     const {isLogin} = this.state
-    const aaa = isLogin ? (
-      <Logout loginStatus={isLogin} />
-    ) : (
-      <Login loginStatus={isLogin} />
-    )
-    console.log(aaa)
     return (
       <div className="bg-container1">
         <div className="bg-container2">
           <Message loginStatus={isLogin} />
           <button className="button" type="button" onClick={this.changeState}>
-            {aaa}
+            {isLogin ? (
+      <Logout loginStatus={isLogin} />
+    ) : (
+      <Login loginStatus={isLogin} />
+    )}
           </button>
         </div>
       </div>
